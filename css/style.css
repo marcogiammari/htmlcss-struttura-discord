@@ -111,8 +111,13 @@ main > div:nth-child(odd) {
     background-color: #228b22;
 }
 
-.footer-module {
+footer {
     background-color: #23272a;
+}
+
+#footer-module-1 {
+    
+    border-bottom: 1px solid white;
 }
 
 .footer-box {
@@ -120,12 +125,12 @@ main > div:nth-child(odd) {
     padding: 0.6rem 0 3rem 0;
 }
 
-.footer-module .small-col {
+#footer-module-1 .small-col {
     background-color: #f08080;
     width: 360px;
 }
 
-.footer-module .big-col {
+#footer-module-1 .big-col {
     background-color: #20b2aa;
     width: 840px;
 }
@@ -134,4 +139,29 @@ main > div:nth-child(odd) {
     width: 25%;
     height: 100%;
     border: 2px dashed white;
+}
+
+#footer-module-2 {
+    padding: 2rem 0 0 0;
+}
+
+#footer-container {
+    background-color: #7fffd4;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#footer-container div {
+    border: 2px dashed black;
+    padding: 0.2rem 0.4rem;
+    background-color: #ffb6c1;
+}
+#footer-logo-wrapper {
+}
+
+#footer-button-wrapper > button {
+    all: unset;
+    cursor: pointer;
 }
