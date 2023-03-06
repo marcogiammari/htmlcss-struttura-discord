@@ -71,3 +71,42 @@ nav > a {
 .pink {
     background-color: #ee82ee;
 }
+
+main > div {
+    min-height: 600px;
+    padding: 3rem;
+}
+
+main > div:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+main > div:nth-child(odd) {
+    background-color: #fff;
+}
+
+.main-box {
+    border: 2px dashed black;
+    min-height: 552px;
+}
+
+#reverse {
+    flex-direction: row-reverse;
+}
+
+.big-col {
+    background-color: #1e90ff;
+    border: 2px dashed black;
+    width: calc(1200px - 476px);
+}
+
+.small-col {
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+    width: 476px;
+}
+
+#green-box {
+    min-height: 900px;
+    background-color: #228b22;
+}
