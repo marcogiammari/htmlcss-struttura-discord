@@ -94,10 +94,10 @@ main > div:nth-child(odd) {
     flex-direction: row-reverse;
 }
 
-.big-col {
+.main-box .big-col {
     background-color: #1e90ff;
     border: 2px dashed black;
-    width: calc(1200px - 476px);
+    width: 724px;
 }
 
 .small-col {
@@ -109,4 +109,29 @@ main > div:nth-child(odd) {
 #green-box {
     min-height: 900px;
     background-color: #228b22;
+}
+
+.footer-module {
+    background-color: #23272a;
+}
+
+.footer-box {
+    min-height: 580px;
+    padding: 0.6rem 0 3rem 0;
+}
+
+.footer-module .small-col {
+    background-color: #f08080;
+    width: 360px;
+}
+
+.footer-module .big-col {
+    background-color: #20b2aa;
+    width: 840px;
+}
+
+.mini-col {
+    width: 25%;
+    height: 100%;
+    border: 2px dashed white;
 }
