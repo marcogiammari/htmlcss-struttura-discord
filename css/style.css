@@ -10,11 +10,11 @@ header {
 }
 
 #bar-wrapper {
-    min-height: 80px;
+    min-height: 5rem;
 }
 
 #bar {
-    min-height: 45px;
+    min-height: 2.8rem;
     background-color: #daa520;
     justify-content: space-between;
 }
@@ -27,26 +27,27 @@ header {
 #logo {
     justify-content: flex-start;
     align-items: center;
-    width: 240px;
+    width: 15rem;
 }
 
 #blue-box {
-    min-height: 500px;
+    min-height: 31rem;
     background-color: #00008b;
 }
 
 #pink-box {
     width: 905px;
-    min-height: 400px;
+    min-height: 25rem;
     margin: 3rem auto;
     border: 2px dashed black;
+    background-color: #ee82ee;
 }
 
 
 nav {
     justify-content: center;
     align-items: center;
-    width: 720px;
+    width: 45rem;
 
 }
 
@@ -59,11 +60,11 @@ nav > a {
 #login {
     justify-content: flex-end;
     align-items: center;
-    width: 240px;
+    width: 15rem;
 }
 
 .boxed {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: auto;
 }
 
@@ -71,12 +72,8 @@ nav > a {
     display: flex;
 }
 
-.pink {
-    background-color: #ee82ee;
-}
-
 main > div {
-    min-height: 600px;
+    min-height: 37.5rem;
     padding: 3rem;
 }
 
@@ -90,7 +87,7 @@ main > div:nth-child(odd) {
 
 .main-box {
     border: 2px dashed black;
-    min-height: 552px;
+    min-height: 34.5rem;
 }
 
 #reverse {
@@ -100,17 +97,17 @@ main > div:nth-child(odd) {
 .main-box .big-col {
     background-color: #1e90ff;
     border: 2px dashed black;
-    width: 724px;
+    width: 60%;
 }
 
-.small-col {
+.main-box .small-col {
     background-color: #ffc0cb;
     border: 2px dashed black;
-    width: 476px;
+    width: 40%;
 }
 
 #green-box {
-    min-height: 900px;
+    min-height: 56rem;
     background-color: #228b22;
 }
 
@@ -118,30 +115,29 @@ footer {
     background-color: #23272a;
 }
 
-#footer-module-1 {
-    
-    border-bottom: 1px solid white;
+footer > div {
+    border-bottom: 2px solid #c1c1c1;
 }
 
 .footer-box {
-    min-height: 580px;
+    min-height: 36rem;
     padding: 0.6rem 0 3rem 0;
 }
 
 #footer-module-1 .small-col {
     background-color: #f08080;
-    width: 360px;
+    width: 30%;
 }
 
 #footer-module-1 .big-col {
     background-color: #20b2aa;
-    width: 840px;
+    width: 70%;
 }
 
 .mini-col {
     width: 25%;
     height: 100%;
-    border: 2px dashed white;
+    border: 2px dashed #a2dfdb;
 }
 
 #footer-module-2 {
@@ -150,7 +146,7 @@ footer {
 
 #footer-container {
     background-color: #7fffd4;
-    min-height: 80px;
+    min-height: 5rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -160,8 +156,6 @@ footer {
     border: 2px dashed black;
     padding: 0.2rem 0.4rem;
     background-color: #ffb6c1;
-}
-#footer-logo-wrapper {
 }
 
 #footer-button-wrapper > button {
