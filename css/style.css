@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -50,6 +51,8 @@ nav {
 }
 
 nav > a {
+    all: unset;
+    cursor: pointer;
     padding: 0.2rem;
 }
 
