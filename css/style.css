@@ -10,11 +10,10 @@ header {
 }
 
 #bar-wrapper {
-    min-height: 5rem;
+    padding: 1.2rem;
 }
 
 #bar {
-    min-height: 2.8rem;
     background-color: #daa520;
     justify-content: space-between;
 }
@@ -27,16 +26,15 @@ header {
 #logo {
     justify-content: flex-start;
     align-items: center;
-    width: 15rem;
+    width: 20%;
 }
 
 #blue-box {
-    min-height: 31rem;
     background-color: #00008b;
 }
 
 #pink-box {
-    width: 905px;
+    width: 56rem;
     min-height: 25rem;
     margin: 3rem auto;
     border: 2px dashed black;
@@ -47,7 +45,7 @@ header {
 nav {
     justify-content: center;
     align-items: center;
-    width: 45rem;
+    width: 60%;
 
 }
 
@@ -60,11 +58,11 @@ nav > a {
 #login {
     justify-content: flex-end;
     align-items: center;
-    width: 15rem;
+    width: 20%;
 }
 
 .boxed {
-    max-width: 75rem;
+    width: 75rem;
     margin: auto;
 }
 
@@ -73,7 +71,6 @@ nav > a {
 }
 
 main > div {
-    min-height: 37.5rem;
     padding: 3rem;
 }
 
